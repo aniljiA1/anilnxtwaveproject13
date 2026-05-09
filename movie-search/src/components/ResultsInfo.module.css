@@ -1,0 +1,64 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  color: var(--color-muted);
+}
+
+.info strong {
+  color: var(--color-text);
+}
+
+.info em {
+  color: var(--color-accent);
+  font-style: normal;
+}
+
+.page {
+  margin-left: auto;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+}
+
+.filterWarning {
+  font-size: 0.82rem;
+  color: var(--color-gold);
+  background: rgba(244, 162, 97, 0.08);
+  border: 1px solid rgba(244, 162, 97, 0.25);
+  border-radius: 8px;
+  padding: 0.5rem 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+}
+
+.filterWarningEmpty {
+  color: var(--color-accent);
+  background: rgba(230, 57, 70, 0.08);
+  border-color: rgba(230, 57, 70, 0.3);
+}
+
+.clearBtn {
+  background: none;
+  border: none;
+  color: inherit;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: inherit;
+  font-family: inherit;
+  padding: 0;
+  font-weight: 600;
+}
+
+.clearBtn:hover {
+  opacity: 0.75;
+}

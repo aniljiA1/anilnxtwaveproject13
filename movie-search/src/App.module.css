@@ -1,0 +1,81 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: linear-gradient(180deg, rgba(230, 57, 70, 0.08) 0%, transparent 100%);
+  border-bottom: 1px solid var(--color-border);
+  padding: 2.5rem 1.5rem 2rem;
+}
+
+.headerInner {
+  max-width: 900px;
+  margin: 0 auto 1.5rem;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  margin-bottom: 0.3rem;
+}
+
+.logoIcon {
+  color: var(--color-accent);
+  font-size: 1.8rem;
+  line-height: 1;
+}
+
+.logoText {
+  font-family: var(--font-display);
+  font-size: 3.5rem;
+  letter-spacing: 0.08em;
+  color: var(--color-text);
+  line-height: 1;
+}
+
+.tagline {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  letter-spacing: 0.05em;
+  margin-top: 0.2rem;
+}
+
+.searchSection {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.main {
+  flex: 1;
+  padding: 2rem 1.5rem;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.footer {
+  text-align: center;
+  padding: 1.5rem;
+  border-top: 1px solid var(--color-border);
+  font-size: 0.8rem;
+  color: var(--color-muted);
+}
+
+.footer a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
