@@ -1,4 +1,4 @@
-🎬 CineQuest — Movie Search App
+## 🎬 CineQuest — Movie Search App
 
 Search millions of movies powered by the free OMDb API.
 
